@@ -3,7 +3,7 @@
 
     window.Chess = function() {
         const board = Array(8).fill().map(() => Array(8).fill(null));
-        let turn = 'w'; // 'w' or 'b'
+        let turn = 'w';
 
         function init() {
             const pieces = [
@@ -24,7 +24,6 @@
         }
 
         function generateMoves() {
-            // Для упрощения: возвращаем случайные ходы пешек
             const moves = [];
             for (let r = 0; r < 8; r++) {
                 for (let c = 0; c < 8; c++) {

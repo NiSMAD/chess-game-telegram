@@ -1,2 +1,1 @@
-BOT_TOKEN = '7786566109:AAFzvcq2bnTKy_3WIIzO_bcnieHTh6AuxSw'
-GAME_SHORT_NAME = 'ChesssGame_Bot'
+BOT_TOKEN = ''
